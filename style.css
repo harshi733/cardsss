@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 300px 150px;
+    gap: 30px;
+    #harshi{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        #h1{
+            height: 200px;
+            width: 300px;
+            margin-right: -105px;
+            transform-style: preserve-3d;
+            transform: perspective(500px) rotateY(50deg);
+        }
+        #h2{
+            height: 200px;
+            width: 300px;
+            margin-right: -85px;
+            transform-style: preserve-3d;
+            transform: perspective(500px)rotateY(50deg);
+        }
+        #h3{
+            height: 200px;
+            width: 300px;
+            z-index: 1;
+        }
+        #h4{
+            height: 200px;
+            width: 300px;
+            margin-left: -85px;
+            transform-style: preserve-3d;
+            transform: perspective(500px)rotateY(-50deg);
+        }
+        #h5{
+            height: 200px;
+            width: 300px;
+            margin-left: -105px;
+            z-index: -1;
+            transform-style: preserve-3d;
+            transform: perspective(500px)rotateY(-50deg);
+        }
+
+    }
+}
